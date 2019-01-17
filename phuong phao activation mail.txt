@@ -1,0 +1,18 @@
+activation mail user
+
+User table
+id
+password ([orgin password, salt] => hash 512)
+fullname
+email
+phone
+created_at
+updated_at
+active (bool) -> =1: active / 0: not active
+
+UserActivation tables
+id
+token
+activationCode
+created_at
+updated_at
