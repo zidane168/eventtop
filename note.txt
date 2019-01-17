@@ -1,0 +1,7 @@
+1.           Xây dựng giao diện UI giống file đính kèm, link kham khảo: https://www.eventpop.me/ (chỉ làm trang home)
+2.           Thiết kế database MySQL cho các phần sau:
+a.           Đăng ký / Đăng nhập (username/password hoặc facebook/google)
+b.           Verify tài khoản qua email nếu đăng ký bằng username/password
+c.           Dữ liệu để load ra trang home
+3.           Sử dụng AJAX trả về response dạng Restful APIs để hiển thị dữ liệu động từ database để load trang home.
+4.           Ngôn ngữ: Codeigniter hoặc Laravel
